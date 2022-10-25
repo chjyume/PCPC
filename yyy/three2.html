@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<meta charset="utf-8">
+		<title>出发吧</title>
+	</head>
+	<body>
+		<style type="text/css">
+			.body{
+				font:normal 100% Arial,sans-serif;font-size:14px;
+				font-size:1.4rem;
+			}			
+			.bejing{
+				width: 640px;
+				height: 1030px;
+				margin: 0 auto;
+				display: flex;
+			}
+			.bt{
+				align: center;
+				position: absolute;
+				padding-left: 80px;
+			}
+		</style>
+
+		<div style="text-align: center;"><img src="img/three2.png" ></div>
+		<div id="beijing"></div>
+		<div style="text-align: center;"><button onclick="start()">click</button></div>
+		<script>
+		function start() {
+		    var b = confirm("你想了解羊毛衫吗？");
+		    if (b==true){
+		        document.getElementById.innerHTML="Yes！";
+		    } else {
+		        document.getElementById.innerHTML="No！";
+		    }
+		}
+		</script>
+	</body>
+</html>
